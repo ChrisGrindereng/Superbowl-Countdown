@@ -1,4 +1,4 @@
-
+//set up countdown function
 function getTimeRemaining(endtime) {
   var t = Date.parse(endtime) - Date.parse(new Date());
   var seconds = Math.floor((t / 1000) % 60);
@@ -13,7 +13,7 @@ function getTimeRemaining(endtime) {
     'seconds': seconds
   };
 }
-
+//creates the clock
 function initializeClock(id, endtime) {
   var clock = document.getElementById(id);
   var daysSpan = clock.querySelector('.days');
@@ -21,6 +21,7 @@ function initializeClock(id, endtime) {
   var minutesSpan = clock.querySelector('.minutes');
   var secondsSpan = clock.querySelector('.seconds');
 
+//writes the values to html and formats with 0s
   function updateClock() {
     var t = getTimeRemaining(endtime);
 
@@ -33,10 +34,11 @@ function initializeClock(id, endtime) {
       clearInterval(timeinterval);
     }
   }
-
+//sets the time interval for the clock to call the update function
   updateClock();
   var timeinterval = setInterval(updateClock, 1000);
 }
 
+//sets the deadline date and runs the initial set up
 var deadline = 'Febuary 5 2017 17:30:00';
 initializeClock('clockdiv', deadline);

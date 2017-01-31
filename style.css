@@ -1,13 +1,10 @@
-.background{
-
-}
-
 
 body{
     text-align: center;
     font-family: sans-serif;
     font-weight: 100;
     background:slategrey;
+   /*background image set up */
     background-image: url(https://i.ytimg.com/vi/RYGznGhvPSs/maxresdefault.jpg);
     width: 100%;
     height: 100%;
