@@ -1,6 +1,6 @@
 # Superbowl-Countdown
 
-Link to Live site: [https://chrisgrindereng.github.io/Superbowl-Countdown/]
+Link to Live site: https://chrisgrindereng.github.io/Superbowl-Countdown/
 
 ###Technologies, Frameworks and Programming Languages:
 JavaScript, HTML, CSS
