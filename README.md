@@ -5,7 +5,7 @@ Link to Live site: https://chrisgrindereng.github.io/Superbowl-Countdown/
 ###Technologies, Frameworks and Programming Languages:
 JavaScript, HTML, CSS
 
-[screenshots/superbowlclock.png]
+<img src="screenshots/superbowlclock.png"/>
 
 ###Overview of Project:
 - With the Superbowl in Houston just around the corner I wanted to make a countdown clock to the start of the game as a way of practicing my JavaScript. 
