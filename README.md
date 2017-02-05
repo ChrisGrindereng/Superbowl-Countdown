@@ -18,11 +18,10 @@ JavaScript, HTML, CSS
 - In addition, I was able to test output of the functions in JSFiddle before implementing them into the application.
 
 
-###MVP(Minimum Viable Product) and Stretch Goals: 
+###MVP(Minimum Viable Product) 
 ###MVP
-  - Build a clock that counts down from the date and time of the Superbowl.
-###Stretch Goals
-  - Add styling elements. 
+- Build a clock that counts down from the date and time of the Superbowl.
+- Add styling elements. 
 
 
 ###Contributions to be added:
