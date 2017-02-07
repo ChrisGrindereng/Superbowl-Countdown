@@ -40,5 +40,5 @@ function initializeClock(id, endtime) {
 }
 
 //sets the deadline date and runs the initial set up
-var deadline = 'Febuary 5 2017 17:30:00';
+var deadline = 'Febuary 4 2018 17:30:00';
 initializeClock('clockdiv', deadline);
